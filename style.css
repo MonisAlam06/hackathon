@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    
+    padding-left: 10px;
+    
+}
+.navbar h1{
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 36px;
+}
+.navitems a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 156px;
+    height: 36px;
+    
+}
+.navbar li{
+    list-style: none;
+    text-decoration: none;
+    width: 100px;
+    
+}
+.navitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    
+    color: white;
+    gap: 30px;
+}
+.btn1 button{
+    width: 133px;
+    height: 45px;
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 550px;
+    
+    position: relative;
+}
+.con1{
+    width: 50%;
+    height: 550px;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.con1 h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.con1 p{
+    font-size: 35px;
+
+}
+.con1 button{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 56px;
+}
+.header img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.boxmain{
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.box1{
+    width: 33%;
+    height:200px ;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(243, 102, 8);
+}
+.group1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.boxmain2{
+    width: 100%;
+    height: 550px;
+
+    margin-top: 50px;
+    position: relative;
+}
+.box2{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    right: 0px;
+    padding-top: 60px;
+}
+.box2 h1{
+    font-size: 60px;
+}
+.box2 p{
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+}
+.boxmain3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.box3{
+    width: 33%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.box3 h1{
+    font-size: 48px;
+    color: black;
+}
+.box3 h3{
+    font-size: 30px;
+}
+
+.boxmain4{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 20px;
+}
+.formtext{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hypertext{
+    width: 40%;
+    height: 100px;
+    
+}
+.hypertext h5{
+    font-size: 40px;
+}
+.form input{
+    width: 576px;
+    height: 96px;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.form{
+    position: relative;
+}
+.form button{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    width: 213px;
+    height: 57px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
